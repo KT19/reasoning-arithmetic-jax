@@ -1,0 +1,17 @@
+model_id: HuggingFaceTB/SmolLM2-135M
+max_len: 256
+lr: 0.000005
+weight_decay: 0.1
+grad_clip: 1.0
+steps: 500
+log_every: 10
+monitor_answer_step: 50
+max_new_tokens: 128
+seed: 0
+save_dir: ./saved_model
+ppo_clip_eps: 0.2
+kl_beta: 0.01
+prompts_per_step: 8
+group_size: 8
+temperature: 0.9
+top_k: 50
