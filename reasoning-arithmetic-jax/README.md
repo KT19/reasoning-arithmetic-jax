@@ -33,11 +33,22 @@ Once SFT is completed, the model is further trained to boost performance.
 uv run train_grpo.py
 ```
 
+<div align="center">
+    <img src="grpo_reward.png" width="50%">
+</div>
+
 # Inference
 CLI-based inference is supported.
 
 ```bash
 uv run inference.py
+```
+
+# Launch Server
+The server is supoorted for the frontend.
+
+```bash
+uv run server.py
 ```
 
 # Reference
